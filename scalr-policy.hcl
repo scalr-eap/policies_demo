@@ -14,3 +14,9 @@ policy "limit_instance_types" {
     enabled = true
     enforcement_level = "soft-mandatory"
 }
+
+policy "limit_cost" {
+    enabled = true
+    enforcement_level = "soft-mandatory"
+}
+
