@@ -2,7 +2,7 @@ version = "v1"
 
 policy "limit_modules" {
     enabled = true
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "workspace_name_convention" {
