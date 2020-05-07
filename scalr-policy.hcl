@@ -20,3 +20,7 @@ policy "limit_cost" {
     enforcement_level = "soft-mandatory"
 }
 
+policy "limit_network" {
+    enabled = true
+    enforcement_level = "soft-mandatory"
+}
