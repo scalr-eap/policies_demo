@@ -8,5 +8,5 @@ allowed_network = "subnet-0ebb1058ad727cfdb"
 
 deny["Only subnet-0ebb1058ad727cfdb allowed!"] {
     r = tfplan.resource_changes.after[_]
-    r.subnet_id != allowed_resource
+    r.subnet_id != allowed_network
 }
