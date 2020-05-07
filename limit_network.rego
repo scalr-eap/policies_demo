@@ -7,6 +7,5 @@ import input.tfrun as tfrun
 allowed_network = "subnet-0ebb1058ad727cfdb"
 
 deny["Only subnet-0ebb1058ad727cfdb allowed!"] {
-    r = tfplan.resource_changes.change.after[_]
-    r.subnet_id != allowed_network
+ tfplan.resource_changes.change.after.subnet_id != allowed_network
 }
