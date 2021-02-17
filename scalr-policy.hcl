@@ -24,3 +24,9 @@ policy "limit_network" {
     enabled = true
     enforcement_level = "soft-mandatory"
 }
+
+policy "protect_controller" {
+    enabled = true
+    enforcement_level = "hard-mandatory"
+}
+
