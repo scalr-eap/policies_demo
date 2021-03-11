@@ -4,6 +4,10 @@ package terraform
 
 import input.tfrun as tfrun
 
+array_contains(arr, elem) {
+	arr[_] == elem
+}
+
 # Check if value is in white list for the attribute
 deny[reason] {
 	tfrun.source == "vcs"
