@@ -30,3 +30,7 @@ policy "protect_controller" {
     enforcement_level = "soft-mandatory"
 }
 
+policy "approver" {
+    enabled = true
+    enforcement_level = "soft-mandatory"
+}
