@@ -34,3 +34,8 @@ policy "approver" {
    enabled = true
    enforcement_level = "soft-mandatory"
 }
+
+policy "deny_auto_approval" {
+   enabled = true
+   enforcement_level = "soft-mandatory"
+}
