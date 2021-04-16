@@ -36,6 +36,6 @@ policy "approver" {
 }
 
 policy "deny_auto_approval" {
-   enabled = true
+   enabled = false
    enforcement_level = "soft-mandatory"
 }
