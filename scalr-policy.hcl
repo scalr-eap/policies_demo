@@ -1,5 +1,10 @@
 version = "v1"
 
+policy "enforce_sg_cidr" {
+    enabled = true
+    enforcement_level = "advisory"
+}
+
 policy "limit_modules" {
     enabled = true
     enforcement_level = "advisory"
