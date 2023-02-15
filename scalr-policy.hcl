@@ -1,5 +1,10 @@
 version = "v1"
 
+policy "terraform_version_check" {
+    enabled = true
+    enforcement_level = "advisory"
+}
+
 policy "enforce_sg_cidr" {
     enabled = true
     enforcement_level = "advisory"
