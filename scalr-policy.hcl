@@ -2,7 +2,7 @@ version = "v1"
 
 policy "terraform_version_check" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "limit_modules" {
