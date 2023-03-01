@@ -5,9 +5,15 @@ version = "v1"
 #    enforcement_level = "soft-mandatory"
 #}
 
+policy "terraform_min_version" {
+  enabled = true
+  enforcement_level = "hard-mandatory"
+}
+
+
 policy "terraform_suggested_version" {
   enabled = true
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "limit_modules" {
