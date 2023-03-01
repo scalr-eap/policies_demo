@@ -7,7 +7,7 @@ policy "terraform_version_check" {
 
 policy "limit_modules" {
     enabled = true
-    enforcement_level = "advisory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "workspace_name_convention" {
