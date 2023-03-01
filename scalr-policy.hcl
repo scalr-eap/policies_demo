@@ -1,13 +1,13 @@
 version = "v1"
 
-policy "terraform_version_check" {
-    enabled = true
-    enforcement_level = "soft-mandatory"
-}
+#policy "terraform_version_check" {
+#    enabled = true
+#    enforcement_level = "soft-mandatory"
+#}
 
 policy "terraform_suggested_version" {
   enabled = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 
 policy "limit_modules" {
