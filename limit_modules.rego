@@ -7,7 +7,7 @@ import input.tfplan as tfplan
 # Map of resource types which must be created only using module
 # with corresponding module source
 resource_modules = {
-    "aws_db_instance": "terraform-aws-modules/rds/aws"
+    "aws_db_instance": "terraform-aws-modules/rds/aws",
     "aws_s3_bucket": "terraform-aws-modules/s3-bucket/aws"
 }
 
