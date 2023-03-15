@@ -35,13 +35,3 @@ policy "protect_controller" {
     enabled = true
     enforcement_level = "soft-mandatory"
 }
-
-policy "approver" {
-   enabled = false
-   enforcement_level = "soft-mandatory"
-}
-
-policy "deny_auto_approval" {
-   enabled = false
-   enforcement_level = "soft-mandatory"
-}
