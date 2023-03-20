@@ -8,7 +8,7 @@ import input.tfplan as tfplan
 # with corresponding module source
 resource_modules = {
     "aws_db_instance": "terraform-aws-modules/rds/aws",
-    "aws_s3_bucket": "scalr-demo.scalr.io/acc-sscctbisjkl35b8/s3-bucket/aws"
+#    "aws_s3_bucket": "scalr-demo.scalr.io/acc-sscctbisjkl35b8/s3-bucket/aws"
 }
 
 contains(arr, elem) {
