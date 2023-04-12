@@ -18,7 +18,7 @@ policy "terraform_suggested_version" {
 
 policy "limit_modules" {
     enabled = true
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "workspace_name_convention" {
