@@ -17,7 +17,7 @@ policy "terraform_suggested_version" {
 }
 
 policy "limit_modules" {
-    enabled = true
+    enabled = false
     enforcement_level = "soft-mandatory"
 }
 
