@@ -28,7 +28,7 @@ policy "workspace_name_convention" {
 
 policy "limit_cost" {
     enabled = true
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 
 policy "protect_controller" {
